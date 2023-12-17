@@ -1,0 +1,25 @@
+.slideShow-container{
+
+}
+.slideShow-elements{
+background-color:aqua;
+display:flex;
+height:100vh;
+justify-content:center;
+align-items:center;
+}
+.element i,h1{
+    font-size:10rem;
+    color:coral;
+    
+}
+.element{
+    text-align:center;
+    position:absolute;
+    transform:scale(0);
+    transition:0.7s;
+}
+.current {
+    transform:scale(1);
+    transition:0.7s;
+}
